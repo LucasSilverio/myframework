@@ -1,0 +1,25 @@
+{
+    "name": "lucassilverio/framework",
+    "autoload": {
+        "psr-4": {
+            "Lucassilverio\\Framework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lucas Silverio",
+            "email": "lucas.silveriosousa@gmail.com"
+        }
+    ],
+    "require": {
+        "pimple/pimple": "^3.5",
+        "symfony/http-foundation": "^5.4",
+        "zendframework/zend-eventmanager": "^3.2"
+    },
+    "scripts": {
+        "server": "php -S localhost:8080 -t public"
+    },
+    "config": {
+        "process-timeout": 0
+    }
+}
